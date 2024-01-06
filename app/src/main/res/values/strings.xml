@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">ERA</string>
+    <string name="emergency">Emergency</string>
+    <string name="location">Location</string>
+    <string name="search">search</string>
+    <string name="call">call</string>
+    <string name="Location">Location</string>
+    <string name="Call">Call</string>
+    <string name="SMS">SMS</string>
+    <string name="feedback">Feedback</string>
+    <string name="chatbot">Chatbot</string>
+    <string name="police">police</string>
+    <string name="Police" />
+    <string name="call_search">Call</string>
+    <string name="policelink">
+        <a href="http://google.com">Police</a>
+    </string>
+    <string name="aidlink">
+        <a href="https://naco.gov.in/hotlines-helplines#:~:text=The%20helpline%20caters%20to%20all,December%202014%2C%20World%20AIDS%20Day.">Aids Helpline</a>
+    </string>
+    <string name="airlink">
+        <a href="https://www.icatt.in/">Air Ambulance</a>
+    </string>
+    <string name="aphlink">
+        <a href="https://www.poison.org/">Anti-Poison Helpline</a>
+    </string>
+    <string name="ashlink">
+        <a href="https://www.suzylamplugh.org/pages/category/national-stalking-helpline">Anti-Stalking Helpline</a>
+    </string>
+    <string name="athlink">
+        <a href="https://dot.gov.in/accessservices/allocation-short-code-14547-delhi-police-anti-terror-helpline-number#:~:text=Allocation%20of%20short%20code%2014547,of%20Communication%20%7C%20Government%20of%20India">Anti-Terror Helpline</a>
+    </string>
+    <string name="cancerlink">
+        <a href="https://www.indiancancersociety.org/contact-us/">Cancer Helpline</a>
+    </string>
+    <string name="cllink">
+        <a href="https://www.childlineindia.org/">Child Line</a>
+    </string>
+    <string name="cglink">
+        <a href="https://joinindiancoastguard.gov.in/">Coastal Guard</a>
+    </string>
+    <string name="cawlink">
+        <a href="https://womenlawsindia.com/legal-awareness/crimes-against-women/">Crime Against Women</a>
+    </string>
+    <string name="cchlink">
+        <a href="https://cybercrime.gov.in/webform/helpline.aspx">Cyber Crime Helpline</a>
+    </string>
+    <string name="dishlink">
+        <a href="https://www.samhsa.gov/find-help/disaster-distress-helpline">Disaster Helpline</a>
+    </string>
+    <string name="dmlink">
+        <a href="https://publichealth.tulane.edu/blog/what-is-disaster-management/#:~:text=Disaster%20management%20is%20a%20process,preparedness%2C%20response%2C%20and%20recovery.">Disaster Management</a>
+    </string>
+    <string name="dahlink">
+        <a href="https://drughelpline.org/">Drug De-addiction Helpline</a>
+    </string>
+    <string name="ecilink">
+        <a href="https://eci.gov.in/">Election Commission of India</a>
+    </string>
+    <string name="emrlink">
+        <a href="https://main.mohfw.gov.in/?q=Organisation/Departments-of-Health-and-Family-Welfare/emergency-medical-relief">Emergency Medical Relief</a>
+    </string>
+    <string name="eelink">
+        <a href="https://www.unep.org/explore-topics/disasters-conflicts/what-we-do/response-and-recovery/environmental-emergency">Environment Emergency</a>
+    </string>
+    <string name="firelink">
+        <a href="https://gwalior.nic.in/en/district-helpline/fire-helpline/">Fire</a>
+    </string>
+    <string name="hahink">
+        <a href="https://naco.gov.in/hotlines-helplines#:~:text=National%20AIDS%20Control%20Organisation%20steers,educating%20people%20on%20HIV%2FAIDS.">HIV/AIDS Helpline</a>
+    </string>
+    <string name="iahink">
+        <a href="https://indianarmy.nic.in/content2/Footer-Links/contact-us-footer-links-site-main">Indian Army Helpline</a>
+    </string>
+    <string name="lpglink">
+        <a href="https://www.bankbazaar.com/gas-connection/indane-gas-complaint.html#:~:text=You%20can%20call%20the%20toll,complaint%20you%20wish%20to%20raise.">LPG Leak Helpline</a>
+    </string>
+    <string name="mhlink">
+        <a href="https://www.emri.in/104-medical-helpline/">Medical Helpline</a>
+    </string>
+    <string name="nahlink">
+        <a href="https://naco.gov.in/hotlines-helplines#:~:text=The%20helpline%20caters%20to%20all,code%20toll%2Dfree%20number%201097.">National Aids Helpline</a>
+    </string>
+    <string name="nchink">
+        <a href="https://consumerhelpline.gov.in/">National Consumer Helpline</a>
+    </string>
+    <string name="nerslink">
+        <a href="https://www.india.gov.in/nationwide-emergency-response-system-ners-guidelines">National Emergency Response System</a>
+    </string>
+    <string name="raillink">
+        <a href="https://indianrailways.gov.in/">Railways</a>
+    </string>
+    <string name="relink">
+        <a href="https://www.indianrail.gov.in/enquiry/StaticPages/StaticEnquiry.jsp?StaticPage=index.html">Railway Enquiry</a>
+    </string>
+    <string name="rhlink">
+        <a href="https://indianrailways.gov.in/contactUs.html">Railway Helpline</a>
+    </string>
+    <string name="wilink">
+        <a href="https://worldweather.wmo.int/en/home.html">Weather Information</a>
+    </string>
+    <string name="whlink">
+        <a href="https://www.ncwwomenhelpline.in/">Women Helpline</a>
+    </string>
+
+</resources>

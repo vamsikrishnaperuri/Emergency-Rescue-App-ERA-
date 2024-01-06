@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F8F2"
+    tools:context=".MainActivity">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dip"
+                android:background="@drawable/top_background">
+
+                <TextView
+                    android:layout_width="250dip"
+                    android:layout_height="70dip"
+                    android:layout_marginTop="28dip"
+                    android:textAlignment="center"
+                    android:text="@string/emergency"
+                    android:textColor="#000000"
+                    android:textSize="40sp"
+                    android:textStyle="bold|italic"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.516"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:layout_gravity="right"
+                android:translationX="-20dip"
+                android:translationY="10dip"
+                app:neumorph_shapeType="flat">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:id="@+id/viewall"
+                    android:background="@drawable/baseline_arrow_forward_24"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="22dip"
+                android:background="@drawable/white_background"
+                android:elevation="3dip"
+                android:orientation="vertical"
+                android:padding="5dip">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/policell"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dip"
+                        android:layout_weight="0.25"
+                        android:background="@drawable/green_background"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/policeimg"
+                            android:layout_width="60dip"
+                            android:layout_height="60dip"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="8dip"
+                            app:srcCompat="@drawable/img" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dip"
+                            android:layout_marginBottom="8dip"
+                            android:text="Police"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dip"
+                        android:layout_weight="0.25"
+                        android:background="@drawable/green_background"
+                        android:orientation="vertical"
+                        android:id="@+id/ambulancell">
+
+                        <ImageView
+                            android:id="@+id/ambulance"
+                            android:layout_width="50dip"
+                            android:layout_height="60dip"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="8dip"
+                            app:srcCompat="@drawable/ambulance" />
+
+                        <TextView
+                            android:id="@+id/textView15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dip"
+                            android:layout_marginBottom="8dip"
+                            android:text="Ambulance"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/firell"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dip"
+                        android:layout_weight="0.25"
+                        android:background="@drawable/green_background"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/fireimg"
+                            android:layout_width="60dip"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="8dip"
+                            app:srcCompat="@drawable/flames" />
+
+                        <TextView
+                            android:id="@+id/textView25"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dip"
+                            android:layout_marginBottom="8dip"
+                            android:text="Fire"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/childhelp"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dip"
+                        android:layout_weight="0.25"
+                        android:background="@drawable/green_background"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/childimg"
+                            android:layout_width="50dip"
+                            android:layout_height="60dip"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="8dip"
+                            app:srcCompat="@drawable/nochildlabor" />
+
+                        <TextView
+                            android:id="@+id/textView45"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dip"
+                            android:layout_marginBottom="8dip"
+                            android:shadowColor="#000000"
+                            android:text="Child help"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/womenll"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dip"
+                        android:layout_weight="0.25"
+                        android:background="@drawable/green_background"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/womenimg"
+                            android:layout_width="60dip"
+                            android:layout_height="60dip"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="8dip"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/women" />
+
+                        <TextView
+                            android:id="@+id/textView65"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dip"
+                            android:layout_marginBottom="8dp"
+                            android:text="Women help"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/railwayll"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dip"
+                        android:layout_weight="0.25"
+                        android:background="@drawable/green_background"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/railimg"
+                            android:layout_width="50dip"
+                            android:layout_height="60dip"
+                            android:layout_marginTop="8dip"
+                            android:layout_gravity="center"
+                            app:srcCompat="@drawable/train" />
+
+                        <TextView
+                            android:id="@+id/textView75"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dip"
+                            android:layout_marginBottom="8dip"
+                            android:text="Railway"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="320dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dip"
+        android:background="@drawable/white_background"
+        android:elevation="3dip"
+        android:orientation="vertical"
+        android:backgroundTint="#EDEDED">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <LinearLayout
+                android:id="@+id/locationll"
+                android:layout_width="100dip"
+                android:layout_height="130dip"
+                android:layout_margin="2dip"
+                android:layout_weight="0.25"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <soup.neumorphism.NeumorphCardView
+                    style="@style/Widget.Neumorph.CardView"
+                    android:layout_width="90dip"
+                    android:layout_height="90dip"
+                    app:neumorph_shapeType="pressed">
+
+                    <ImageView
+                        android:layout_width="50dip"
+                        android:layout_height="50dip"
+                        android:layout_gravity="center"
+                        android:background="@drawable/pin"
+                        android:scaleType="center" />
+                </soup.neumorphism.NeumorphCardView>
+
+                <TextView
+                    android:layout_width="80dip"
+                    android:layout_height="20dip"
+                    android:text="@string/Location"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textStyle="italic"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/searchll"
+                android:layout_width="100dip"
+                android:layout_height="130dip"
+                android:layout_margin="2dip"
+                android:layout_weight="0.25"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <soup.neumorphism.NeumorphCardView
+                    style="@style/Widget.Neumorph.CardView"
+                    android:layout_width="90dip"
+                    android:layout_height="90dip"
+                    app:neumorph_shapeType="pressed">
+
+                    <ImageView
+                        android:layout_width="40dip"
+                        android:layout_height="40dip"
+                        android:layout_gravity="center"
+                        android:background="@drawable/search"
+                        android:scaleType="center" />
+                </soup.neumorphism.NeumorphCardView>
+
+                <TextView
+                    android:layout_width="80dip"
+                    android:layout_height="20dip"
+                    android:text="@string/search"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textStyle="italic" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="100dip"
+                android:layout_height="130dip"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:id="@+id/calll"
+                android:layout_weight="0.25"
+                android:layout_margin="2dip">
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="90dip"
+                    android:layout_height="90dip"
+                    style="@style/Widget.Neumorph.CardView"
+                    app:neumorph_shapeType="pressed">
+
+                    <ImageView
+                        android:layout_width="40dip"
+                        android:layout_height="40dip"
+                        android:background="@drawable/viber"
+                        android:scaleType="center"
+                        android:layout_gravity="center"/>
+                </soup.neumorphism.NeumorphCardView>
+
+                <TextView
+                    android:layout_width="80dip"
+                    android:layout_height="20dip"
+                    android:text="@string/Call"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+       </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:paddingHorizontal="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <LinearLayout
+                    android:id="@+id/feedbackll"
+                    android:layout_width="100dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="2dip"
+                    android:layout_weight="0.25"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <soup.neumorphism.NeumorphCardView
+                        style="@style/Widget.Neumorph.CardView"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        app:neumorph_shapeType="pressed">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/comment"
+                            android:scaleType="center" />
+                    </soup.neumorphism.NeumorphCardView>
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="20dp"
+                        android:text="@string/feedback"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textStyle="italic" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="130dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="0.25"
+                    android:layout_margin="2dip">
+
+                    <soup.neumorphism.NeumorphCardView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        style="@style/Widget.Neumorph.CardView"
+                        app:neumorph_shapeType="pressed">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/chatbot"
+                            android:scaleType="center"
+                            android:layout_gravity="center"/>
+                    </soup.neumorphism.NeumorphCardView>
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="20dp"
+                        android:text="@string/chatbot"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/smsll"
+                    android:layout_width="100dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="2dip"
+                    android:layout_weight="0.25"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <soup.neumorphism.NeumorphCardView
+                        style="@style/Widget.Neumorph.CardView"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        app:neumorph_shapeType="pressed">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/baseline_sms_24"
+                            android:scaleType="center" />
+                    </soup.neumorphism.NeumorphCardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/SMS"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+</RelativeLayout>

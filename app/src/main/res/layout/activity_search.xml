@@ -1,0 +1,1401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".search">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="95dip"
+            android:orientation="horizontal">
+            <androidx.cardview.widget.CardView
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:id="@+id/cd1"
+                app:cardCornerRadius="60dp"
+                android:layout_marginTop="20dip"
+                android:layout_marginLeft="20dip">
+                <ImageView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/img1"
+                    android:src="@drawable/img1"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/tvs1"
+                android:layout_width="150dp"
+                android:textSize="15sp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/aidlink"
+                android:textAlignment="center"
+
+                android:translationX="20dip"></TextView>
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/lavender"
+                android:text="@string/call_search"
+                android:translationX="25dip" />
+
+        </LinearLayout>
+
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd2"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img2"
+                        android:src="@drawable/img1"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs2"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:translationX="20dip"
+                    android:layout_gravity="center"
+                    android:text="@string/airlink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:id="@+id/b2"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/lavender"
+
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd3"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img3"
+                        android:src="@drawable/img1"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs3"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/aphlink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/b3"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/lavender"
+
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd4"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img4"
+                        android:src="@drawable/img1"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs4"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/ashlink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/lavender"
+                    android:id="@+id/b4"
+
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd5"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img5"
+                        android:src="@drawable/img1"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs5"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/athlink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/lavender"
+
+                    android:id="@+id/b5"
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd6"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img6"
+                        android:src="@drawable/img1"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs6"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/cancerlink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/lavender"
+                    android:id="@+id/b6"
+
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd7"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img7"
+                        android:src="@drawable/img1"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs7"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/cllink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/lavender"
+                    android:id="@+id/b7"
+
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd8"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img8"
+                        android:src="@drawable/img1"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs8"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/cglink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/b8"
+                    android:backgroundTint="@color/lavender"
+
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd9"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img9"
+                        android:src="@drawable/img1"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs9"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/cawlink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/lavender"
+                    android:id="@+id/b9"
+
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd10"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img10"
+                        android:src="@drawable/img1"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs10"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/cchlink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/lavender"
+                    android:id="@+id/b10"
+
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd11"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img11"
+                        android:src="@drawable/img1"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs11"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/dishlink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/b11"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/lavender"
+
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd12"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img12"
+                        android:src="@drawable/img1"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs12"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/dmlink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/lavender"
+                    android:id="@+id/b12"
+
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd13"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img13"
+                        android:src="@drawable/img1"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs13"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/dahlink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/lavender"
+                    android:id="@+id/b13"
+
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd14"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img14"
+                        android:src="@drawable/img1"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs14"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/ecilink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/b14"
+                    android:backgroundTint="@color/lavender"
+
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd15"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img15"
+                        android:src="@drawable/img1"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs15"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/emrlink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/lavender"
+                    android:id="@+id/b15"
+
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd16"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img16"
+                        android:src="@drawable/img1"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs16"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/eelink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/lavender"
+                    android:id="@+id/b16"
+
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd17"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img17"
+                        android:src="@drawable/flames"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs17"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/firelink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/b17"
+                    android:backgroundTint="@color/lavender"
+
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd18"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img18"
+                        android:src="@drawable/img1"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs18"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/hahink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:id="@+id/b18"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/lavender"
+
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd19"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img19"
+                        android:src="@drawable/img1"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs19"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/iahink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/b19"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/lavender"
+
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd20"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img20"
+                        android:src="@drawable/img1"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs20"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/lpglink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/b20"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/lavender"
+
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd21"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img21"
+                        android:src="@drawable/img1"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs21"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/mhlink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/b21"
+                    android:backgroundTint="@color/lavender"
+
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd22"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img22"
+                        android:src="@drawable/img1"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs22"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/nahlink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/lavender"
+                    android:id="@+id/b22"
+
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd23"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img23"
+                        android:src="@drawable/img1"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs23"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/nchink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/lavender"
+
+                    android:id="@+id/b23"
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd24"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img24"
+                        android:src="@drawable/img1"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs24"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/nerslink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:id="@+id/b24"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/lavender"
+
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd25"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img25"
+                        android:src="@drawable/img"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs25"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/policelink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/b25"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/lavender"
+
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd26"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img26"
+                        android:src="@drawable/train"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs26"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/raillink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/b26"
+                    android:backgroundTint="@color/lavender"
+
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd27"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img27"
+                        android:src="@drawable/img1"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs27"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/relink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/b27"
+                    android:backgroundTint="@color/lavender"
+
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd28"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img28"
+                        android:src="@drawable/img1"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs28"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/rhlink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/b28"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/lavender"
+
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd29"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img29"
+                        android:src="@drawable/img1"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs29"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/wilink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/b29"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/lavender"
+
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="350dp"
+                android:layout_height="2dp"
+                android:background="#065BEF"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dip"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:id="@+id/cd30"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginLeft="20dip">
+                    <ImageView
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:id="@+id/img30"
+                        android:src="@drawable/women"
+                        />
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textSize="15sp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvs30"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:translationX="20dip"
+                    android:text="@string/whlink"></TextView>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/b30"
+                    android:backgroundTint="@color/lavender"
+
+                    android:text="@string/call_search"
+                    android:translationX="25dip" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "213995333188",
+    "firebase_url": "https://attmvgr-default-rtdb.firebaseio.com",
+    "project_id": "attmvgr",
+    "storage_bucket": "attmvgr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213995333188:android:a9b0863434727e1daa3e11",
+        "android_client_info": {
+          "package_name": "com.example.attmvgr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "213995333188-30smt90voncgrdf59jbrbte4r2mre6ei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrrccBC8fVMFSjZ-yEXQKCc8N-QBAKdOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "213995333188-30smt90voncgrdf59jbrbte4r2mre6ei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213995333188:android:7df29fc051365218aa3e11",
+        "android_client_info": {
+          "package_name": "com.example.era"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "213995333188-30smt90voncgrdf59jbrbte4r2mre6ei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrrccBC8fVMFSjZ-yEXQKCc8N-QBAKdOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "213995333188-30smt90voncgrdf59jbrbte4r2mre6ei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
